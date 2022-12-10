@@ -1,0 +1,29 @@
+
+#circle_checked{
+    width:3.7%;
+    height: 3%;
+}
+#bulb_idea{
+    width:4%;
+    height:4%;
+}
+
+#circle_checked{
+    margin-top: 5%;
+}
+
+#ad_title, #ad_title1{
+    margin-top: 0%;
+    font-size: medium;
+}
+#bulb_idea{
+    margin-top: 4%;
+}
+.Add_Destination{
+
+    margin-left: 14%
+}
+#ad_title_h4, #ad_title1{
+    margin-top: 0%;
+    font-size: medium;
+}

@@ -1,0 +1,42 @@
+.g-why{
+  background-color: white;
+}
+#us{
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+   
+  
+  }
+  #earth{
+    color:#047bf1;
+    width: 50%;
+    height: 75px;
+    
+  }
+  #van{
+    color: #f3a82e;
+    width: 50%;
+    height: 75px;
+  }
+  #timer{
+    color:  #f34f2e;
+    width: 50%;
+    height: 75px;
+  }
+  #money{
+    color:#3af576 ;
+    width: 50%;
+    height: 75px;
+  }
+ .g-title{
+  font-style: Roboto;
+  font-size: 35px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 0%;
+  text-decoration: underline;
+ }

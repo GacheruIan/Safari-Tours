@@ -1,0 +1,69 @@
+.navbar{
+  background-color: darkgreen;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  display: block;
+  margin: 8px 22px 8px 22px;
+  overflow: hidden;
+  width: 100%; 
+  margin: 0;
+  padding: 1px;
+   
+  }
+ 
+  .navlink{
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+ /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly
+   
+  }
+
+
+  .g-btn{
+    display: flex;
+    justify-content: right;
+    /* align-items: right; */
+    /* background-color: white; */
+   
+  }
+
+  .g-log{
+    margin-left: 120px;
+    /* margin-right: 50px; */
+    /* margin-top: 10px; */
+  }
+  .navlink a{
+    color: #fafafa;
+    text-decoration: none;
+  }
+  .navlink a:hover{
+    transform: scale(1.4); 
+  }
+  .book-btn{
+  background-color:orange;
+  margin-top: 15px;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left: 10%;
+  line-break: strict;
+   
+  }
+  @media screen and (max-width: 500px) {
+    .navbar  {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+  .book-btn:hover{
+    background-color: white;
+    color: darkgreen;
+  }

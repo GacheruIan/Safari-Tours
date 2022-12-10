@@ -1,0 +1,81 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+}
+#destinations-head{
+    color: black;
+    margin-left: 35%;
+  
+}
+#destination-h1{
+    color: black;
+    margin-left: 30%;
+}
+#destinations-head{
+    margin-left: 15%;
+}
+.destination-card{
+   
+    padding: 0px 10px;  
+    float: right;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    margin-left: 10;
+}
+.destination-image:hover{
+    transform: scale(1.1); 
+}
+.destination-description{
+    width: 200px;
+    margin-top: 5%;
+    margin-left: -40%;
+    font-size: small;
+}
+.destination-image{
+    margin-top: 7%;
+    margin-left: -40%;
+}
+
+#destinations-head{
+    font-size: medium;
+    margin-left: -40%;
+}
+    */
+
+.destination-card{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 3%;;
+    
+    
+}
+.destination-card:hover{
+    transform: scale(1.1); 
+}
+.destination-image{
+    margin-top: 5%;
+    margin-left: -17%;
+  
+    
+}
+.destination-image img{
+    margin-top: 5%;
+    margin-left: 12%;
+    border-radius: 25px;
+   
+    
+}
+#dest-delete-btn{
+    background-color:rgb(130, 108, 69);
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+
+}
+#dest-delete-btn:hover{
+	background-color: darkgreen;
+    color: white;
+}
+#des-site-url{
+    color: black;
+}
